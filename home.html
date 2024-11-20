@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Personal Fitness Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Faculté+Glyphic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Personal Fitness Trainer</h1>
+    </header>
+    <main>
+        <section class="exercise-recommendations">
+            <h2>Recommended Workouts</h2>
+            <div class="workout-buttons">
+                <button class="workout-button">
+                    <span>Full Body Workout</span>
+                    <span>Exercises: 5</span>
+                    <span>Time: 30 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Cardio Blast</span>
+                    <span>Exercises: 4</span>
+                    <span>Time: 20 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Strength Training</span>
+                    <span>Exercises: 6</span>
+                    <span>Time: 40 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Abs Workout</span>
+                    <span>Exercises: 5</span>
+                    <span>Time: 15 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Chest Workout</span>
+                    <span>Exercises: 4</span>
+                    <span>Time: 20 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Arm Workout</span>
+                    <span>Exercises: 5</span>
+                    <span>Time: 25 mins</span>
+                </button>
+                <button class="workout-button">
+                    <span>Leg Workout</span>
+                    <span>Exercises: 6</span>
+                    <span>Time: 30 mins</span>
+                </button>
+            </div>
+        </section>
+        <section class="weekly-calendar">
+            <h2>Weekly Calendar</h2>
+            <table id="weekly-calendar">
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <!-- Dates will be dynamically inserted here -->
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <button onclick="navigateTo('home')">🏠 Home</button>
+        <button onclick="navigateTo('report')">📊 Report</button>
+        <button onclick="navigateTo('settings')">⚙️ Settings</button>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html> 

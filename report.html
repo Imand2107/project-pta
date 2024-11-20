@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report - Personal Fitness Trainer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Fitness Report</h1>
+    </header>
+    <main>
+        <section class="exercise-summary">
+            <h2>Exercise Summary</h2>
+            <p>Total Workouts Completed: 15</p>
+            <p>Total Minutes Exercised: 120</p>
+            <p>Day Streak: 3 days</p>
+        </section>
+        <section class="weight-progress">
+            <h2>Weight Progress</h2>
+            <p>Current Weight: 70kg</p>
+            <p>Goal Weight: 65kg</p>
+            <!-- Placeholder for a weight graph -->
+            <div class="weight-graph">[Graph Placeholder]</div>
+        </section>
+        <section class="weekly-calendar">
+            <h2>Weekly Calendar</h2>
+            <table>
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td class="completed">✔ 01</td>
+                    <td></td>
+                    <td class="completed">✔ 03</td>
+                    <td></td>
+                    <td class="completed">✔ 05</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <button onclick="navigateTo('home')">🏠 Home</button>
+        <button onclick="navigateTo('report')">📊 Report</button>
+        <button onclick="navigateTo('settings')">⚙️ Settings</button>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html> 

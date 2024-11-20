@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Your Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="goals-container">
+        <h1>Set Your Fitness Goals</h1>
+        <div class="goals-options">
+            <button class="goal-button" onclick="selectGoal('weight-loss')">
+                <span role="img" aria-label="Weight Loss">🏋️‍♀️</span>
+                <span>Weight Loss</span>
+            </button>
+            <button class="goal-button" onclick="selectGoal('muscle-gain')">
+                <span role="img" aria-label="Muscle Gain">💪</span>
+                <span>Muscle Gain</span>
+            </button>
+            <button class="goal-button" onclick="selectGoal('endurance')">
+                <span role="img" aria-label="Improve Endurance">🏃‍♂️</span>
+                <span>Improve Endurance</span>
+            </button>
+            <button class="goal-button" onclick="selectGoal('flexibility')">
+                <span role="img" aria-label="Increase Flexibility">🤸‍♀️</span>
+                <span>Increase Flexibility</span>
+            </button>
+        </div>
+        <button id="save-goals-button" style="display: none;" onclick="saveGoals()">Save Goals</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html> 
